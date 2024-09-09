@@ -1,0 +1,22 @@
+.todo_list {
+  background-color: rgb(189, 48, 231);
+  height: 40px;
+  padding-left: 5px;
+  border-top-left-radius: 10px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+}
+.modal {
+  background-color: aliceblue;
+  position: absolute;
+  width: 311px;
+  height: 25%;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  padding: 29px;
+  transform: translate(-50%, -50%);
+}
